@@ -1,0 +1,334 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+.header {
+	height: 793px;
+	background-image: url("../img/phone-header.jpg");
+}
+
+.header-menu {
+	width: 968px;
+	height: 87px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 20px;
+}
+/* Картинка с логотипом сайта*/
+.box-logo {
+	display: inline-block;
+}
+
+.logo {
+	height: 41px;
+	width: 165px;
+	margin-top: 20px;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+}
+/* Текст под логотипом сайта */
+.logo-item {
+	display: inline-block;
+	padding-top: 12px;
+  	font-size: 15px;
+ 	font-family: "Avenir Next";
+  	color: rgb(255, 254, 254);
+ 	width: 186px;
+}
+/* Навигационное меню */
+.nav {
+	width: 273px;
+	display: inline-block;
+	position: absolute;
+    padding-left: 215px;
+    padding-top: 45px;
+}
+
+.nav-menu__item {
+	height: 15px;
+	width: 90px;
+	display: inline-block;
+}
+/* Стрелки на списке */
+.strelka {
+	color: white;
+	float: right;
+    position: relative;
+    top: -16px;
+    left: 25px;
+}
+.strelka__padding-left {
+	left: 15px;
+}
+/*.nav-menu__item::before {
+	content: '\25ba';
+	color: #FFFFFF;
+}*/
+/* Блок модификатор навигации*/
+.nav-menu__item_padding-right {
+	padding-right: 56px;
+}
+
+.nav-menu-link {
+	text-decoration: none;
+}
+
+.nav-menu-link__item {
+	font-size: 18px;
+ 	font-family: "Avenir Next";
+  	color: rgb(255, 254, 254);
+  	text-align: left;
+}
+
+.nav-menu-link__item:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+.language-box {
+	display: inline-block;
+    float: right;
+}
+
+.language-box__item {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.language-box-link__item {
+  	font-size: 11px;
+  	font-family: "Avenir Next";
+  	color: rgb(255, 254, 254);
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	text-align: center;
+}
+
+.language-box-link__item:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+/* Форма входа на сайт */
+.phormBox {
+	width: 236px;
+	height: 43px;
+	position: relative;
+	border: 2px solid #B3AEAA;
+	border-radius: 50px;
+	float: right;
+    margin-top: 18px;
+    clear: both;
+}
+
+.phormBox-list {
+	padding: 10px 25px 0 30px;
+}
+.phormBox__item {
+	display: inline-block;
+}
+
+.nav-menu-link__item_padding-right {
+	padding-right: 40px;
+}
+/* Блок с чертой в поле блока phorm-box*/
+.d1 {
+	border: 1px solid #B5B0AA;
+	position: absolute;
+    margin-left: 42px;
+    width: 26px;
+    transform: rotate(-90deg);
+    margin-left: 42px;
+    margin-top: -8px;
+}
+/* Блок с контентом в блоке header*/
+.header-content-box {
+	width: 772px;
+	height: 187px;
+	margin: 0 auto;
+    margin-top: 250px;
+}
+	/* Заголовок 1-ого уровня */
+.header-content-box__h1 {	
+  	font-size: 72px;
+  	font-family: "Avenir Next";
+  	color: rgb(255, 254, 254);
+  	line-height: 0.833;
+  	text-align: center;
+}
+	/* Контент после заголовка 1-ого уровня */
+.header-content-box__item {
+  	font-size: 26px;
+  	padding-top: 42px;
+  	font-family: "Avenir Next";
+  	color: rgb(255, 254, 254);
+  	text-align: center;
+}
+/* Контейнер кнопки "Узнать больше" */
+.push-box {
+	width: 236px;
+	margin: 0 auto;
+	border-radius: 50px;
+	margin-top: 54px;
+}
+	/* При наведении на кнопку */
+.push-box:hover {
+	box-shadow: 0 0 15px 0px #1640a0;
+	transition: ease-in-out 0.25s;
+}
+ 	/* Кнопка "Узнать больше" */
+.push-box__button {
+	width: 236px;
+    height: 60px;
+    background-color: #2856B3;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+	/* Ссылка внутри кнопки */
+.push-box__link {
+	text-decoration: none;
+  	font-size: 20px;
+  	font-family: "Avenir Next";
+  	color: rgb(255, 255, 255);
+  	text-align: center;
+}
+
+.main {
+	height: 817px;
+	width: 100%;
+	background-color: #FAF8F6;
+}
+
+.wrapper-main {
+	width: 991px;
+	height: 817px;
+	margin: 0 auto;
+}
+
+/* Блок картинки main-box__img*/
+.main-box__img {
+	padding: 71px 25px 0 0;
+    float: left;
+}
+
+.main-box__img_images {
+	width: 490px;
+	height: 746px;
+	background-image: url("../img/guy1-main.jpg");
+	background-repeat: no-repeat;
+}
+
+/* Правая часть контента */
+.main-content {
+	width: 476px;
+	height: 620px;
+	display: inline-block;
+}
+/*!!!! Псевдоэлемент добовляет списку кружок !!!!*/
+.g1::before {
+	content: '\2022';
+	color: #0F4ED0;
+	padding-right: 5px;
+}
+
+		/* Заголовок 2-ого уровня */
+.main-content__h2 {
+  	font-size: 46px;
+  	margin: 105px 0 43px 0;
+  	font-family: "Avenir Next";
+  	color: rgb(38, 38, 38);
+  	line-height: 1.109;
+  	text-align: left;
+}
+ 	/* Свойства текста в блоке main */
+.main-content__text {
+  	font-size: 18px;
+  	font-family: "Avenir Next";
+  	color: rgb(38, 38, 38);
+}
+/* Блок текста*/
+.main-content__text-box {
+	display: inline-block;
+	margin-top: 36px;
+}
+	/* Модификатор блока main-content__text */
+.main-content__text_line-height {
+	line-height: 27px;
+}
+	/* Модификатор блока main-content__text */
+.main-content__text_margin-top {
+	margin-top: 40px;
+}
+	/* Модификатор кнопки на блоке main*/
+.push-box_margin-top {
+	margin: 50px 0 0 0;
+	display: inline-block;
+}
+
+.main-content__discription {
+	width: 476px;
+	height: 100px;
+	margin-top: 58px;
+	border: 1px dashed #D5D3D1;
+	border-radius: 10px;
+}
+
+.main-content__discription-text {
+	width: 357px;
+	height: 35px;
+	display: inline-block;
+	margin: 30px 0 0 32px;
+	font-size: 14px;
+  	font-family: "Avenir Next";
+  	color: rgb(179, 179, 179);
+  	text-transform: uppercase;
+  	line-height: 20px;
+  	letter-spacing: 1.5px;
+}
+
+.main-content__discription-text:hover {
+	text-decoration: underline;
+	color: #C7C7C6;
+}
+
+.footer {
+	height: 160px;
+	background-color: #FFFFFF;
+}
+
+.contact {
+	width: 662px;
+	height: 45px;
+	margin: 60px 0 0 230px;
+    display: inline-block;
+}
+
+.main-contact__a {
+	text-decoration: none;
+	display: inline-block;
+}
+	/* Свойства при наведении на блок main-contact__a */
+.main-contact__a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+.main-contact__p {
+	display: inline-block;
+  	font-size: 14px;
+  	font-family: "Avenir Next";
+  	color: #BBBBBB;
+  	line-height: 1.714;
+}
+	/* Модификатор блока main-contact__p */ 
+.main-contact__p_padding {
+	padding-left: 5px;
+    padding-right: 5px;
+}
+	/* Модификатор блока E-mail*/
+.main-contact__a_text-decoration {
+	text-decoration: underline;
+}
